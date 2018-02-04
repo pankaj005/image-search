@@ -1,0 +1,7 @@
+lib-cov
+
+
+npm-debug.log
+node_modules
+downloads
+public/libs

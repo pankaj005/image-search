@@ -1,0 +1,24 @@
+{
+  "name": "nashventures",
+  "version": "1.0.0",
+  "description": "Nash Ventures test",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Pankaj",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "mongoose": "^5.0.3",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
