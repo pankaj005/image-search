@@ -1,8 +1,12 @@
 {
-  "name": "nashventures",
+  "name": "image-search",
   "version": "1.0.0",
   "description": "Nash Ventures test",
   "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pankaj005/image-search.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"

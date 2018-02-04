@@ -1,14 +1,13 @@
 
 <div class="container">
-	<div class="row">
+    <div class="row">
         <div class="span12">
-            <form id="custom-search-form" class="form-search form-horizontal pull-right">
-                <div class="input-append span12">
-                    <input type="text" class="search-query" ng-model="q" placeholder="Search image">
-                    <button type="submit" name="submit" class="btn" ng-click="search(q)"><i class="icon-search"></i></button>
-                </div>
-            </form>
+            <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" ng-model="q" type="search image" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" name="submit"  ng-click="search(q)" type="submit">Search</button>
+    </form>
+           
         </div>
-	</div>
+    </div>
 </div>
 

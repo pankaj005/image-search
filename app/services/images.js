@@ -59,7 +59,10 @@ function _parseHtml (htmlString){
     var imagesArray = $("#ires").find("img").map(function(){
         return this.attribs.src;
     }).get();
-    imagesArray = imagesArray.length > 15?imagesArray.splice(15, imagesArray.length):imagesArray;
+    
+    if(imagesArray.length > 15){
+        imagesArray.splice(15, imagesArray.length)
+    }
     return imagesArray;
 }
 
